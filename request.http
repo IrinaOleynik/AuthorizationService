@@ -1,0 +1,11 @@
+### GET request to example server
+GET http://localhost:8080/authorize?user=Ira&password=hey
+Accept: application/json
+
+###
+GET http://localhost:8080/authorize?user=&password=hey
+Accept: application/json
+
+###
+GET http://localhost:8080/authorize?user=Cat&password=whiskas
+Accept: application/json
