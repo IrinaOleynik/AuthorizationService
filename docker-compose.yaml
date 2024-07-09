@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  app22:
+    build: .
+    ports:
+      - '8080'
+
